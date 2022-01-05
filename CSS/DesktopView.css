@@ -1,0 +1,36 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+h1,
+h2,
+h3 {
+  font-family: "Raleway", sans-serif;
+}
+.container {
+  margin: auto;
+  max-width: 1400px;
+  min-width: 400px;
+  background-color: blanchedalmond;
+  padding: 10px;
+}
+h1 {
+    font-size: 4rem;
+    width: 100%;
+    text-align: left;
+    padding: 5px;
+    display: inline;
+}
+nav li a:hover {
+    color: #0000FF;
+    text-decoration: underline;
+}
+nav ul {
+    padding-left: 0;
+    flex-direction: row;
+
+}
+nav ul li {
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    border-left: 1px solid blanchedalmond;
+}
